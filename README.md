@@ -1,0 +1,1 @@
+This app allows a user to select from multiple versions of an Oculus Rift app that visualizes GitHub commit logs.
