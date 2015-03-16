@@ -1,7 +1,5 @@
 body {
-  background-image:url("1.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-image:url("diagonales_decalees.png");
 }
 
 html {
@@ -9,41 +7,55 @@ html {
 }
 
 .choose {
-  margin-left: 75px;
-  margin-bottom: 10px;
-  position: fixed; 
-  bottom: 0; 
   width: 100%;
 }
 
 .choose_viz_text {
   display: block;
+  text-align: center;
   font-family: 'Megrim', cursive;
-  font-style: bold;
   font-size: 120px;
-  margin-left: -40px;
   margin-bottom: 50px;
+  margin-left: -40px;
 }
 
 .buttons{
-  margin-bottom: 75px;
-}
-
-.button {
-  display: inline-block;
-  position: relative;
-  width: 33%;
-}
-
-.blurb {
   font-family: 'Orbitron', sans-serif;  
-  font-size: 23px;
-  text-align: center;
-  width: 60%;
-  margin-bottom: -2px;
+  font-size: 21px;
 }
 
-.buttonblurb {
-  position:relative;
-  left:25%;
+.links {
+  display: inline-block;
+  vertical-align: top;  
+  position: relative;
+  width: 17%;
+  text-align: center;
+  margin-left: 240px;
 }
+
+.link {
+  text-align: center;
+  text-decoration: none;
+} 
+
+a:link {
+    color: #7401DF;
+}
+
+a:visited {
+    color: #7401DF;
+}
+
+a:hover {
+    color: #7401DF;
+}
+
+a:active {
+    color: #7401DF;
+}
+
+img{
+  width: 50%;
+  margin-top: 50px;
+}
+

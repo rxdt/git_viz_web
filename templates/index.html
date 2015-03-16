@@ -10,20 +10,26 @@
       <p class="choose_viz_text">Choose a visualization</p>
       <form action="/index" method="post" class="buttons">
 
-        <div class="button">
-          <p class="blurb">Ruby on Rails app</p>
-          <input type="submit" name="submit" value="rails" class="buttonblurb">
+
+        <div class="links">
+          <a href="/git_viz_this" class="link">this</a>
+          <p>The Oculus Rift side of this project was built using C# in Unity 4. Visualize its commits. Meta.</p>
+          <a href="/git_viz_this"><img src="static/this.png"></a>
         </div>
 
-        <div class="button">
-          <p class="blurb">Gource - a visualizer</p>
-          <input type="submit" name="submit" value="flask" class="buttonblurb">
+        <div class="links">
+          <a href="/rails" class="link">Ruby on Rails app</a>
+          <p class="link">See the commit log of a Ruby on Rails web app that uses multiple APIs.</p>
+          <a href="/rails"><img src="static/ruby.png"></a>
         </div>
 
-        <div class="button">
-          <p class="blurb">this</p>
-          <input type="submit" name="submit" value="this" class="buttonblurb">
+
+        <div class="links">
+          <a href="/flask" class="link">Gource - a visualizer</a>
+          <p>Gource is an open-source 2D visualizer for commit logs. See Gource's own commit log in 3D.</p>
+          <a href="/flask"><img src="static/gource.png"></a>
         </div>
+
 
       </form>
     </div>
