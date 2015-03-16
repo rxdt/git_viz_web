@@ -1,5 +1,12 @@
-body {
-  background-image:url("cubes.png");
+body{
+  background-image:url("4.png");
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
 }
 
 html {
@@ -11,6 +18,7 @@ html {
   margin-left: 60px;
   font-family: 'Monoton', cursive;
   font-size: 165px;
+  text-shadow: 3px 2px #939393;
 }
 
 p{
@@ -22,4 +30,12 @@ p{
   float: right;
   width: 40%;
   text-align: right;
+}
+
+input[type=submit]{
+  font-family: 'Orbitron', sans-serif;
+  display: block; 
+  width:20%;
+  margin:0 auto; 
+  position:relative;
 }

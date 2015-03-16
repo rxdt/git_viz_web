@@ -24,7 +24,6 @@ def index():
             os.system('static/gitviz_small_flask.app/Contents/MacOS/gitviz_small_flask')
             return render_template('index.html')
 
-
         elif request.form['submit'] == 'this':
             os.system('static/git_viz_this.app/Contents/MacOS/git_viz_this')
             return render_template('index.html')
