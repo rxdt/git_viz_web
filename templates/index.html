@@ -1,12 +1,29 @@
 <!DOCTYPE html>
   <head>
   <title>GitViz</title>
-  <link rel="stylesheet" type="text/css" href="static/base.css">
+  <link rel="stylesheet" type="text/css" href="static/index.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600|Monoton|Orbitron:400,700,500|Megrim|Quantico' rel='stylesheet' type='text/css'>
   </head>
   
   <body>
-      stuff
-      <form action="/" method="post">
-        <input type="submit" name="submit" value="commit1">
+    <div class="choose">
+      <p class="choose_viz_text">Choose a visualization</p>
+      <form action="/index" method="post">
+
+        <div class="button">
+          <input type="submit" name="submit" value="rails">
+        </div>
+
+        <div class="button">
+          <input type="submit" name="submit" value="flask">
+        </div>
+          
+        <div class="button">
+          <input type="submit" name="submit" value="this">
+        </div>
+
       </form>
+    </div>
   </body>
+
+
