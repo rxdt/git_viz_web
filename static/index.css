@@ -39,23 +39,26 @@ html {
 } 
 
 a:link {
-    color: #7401DF;
+  color: #7401DF;
 }
 
 a:visited {
-    color: #7401DF;
+  color: #7401DF;
 }
 
 a:hover {
-    color: #7401DF;
+  color: #7401DF;
 }
 
 a:active {
-    color: #7401DF;
+  color: #7401DF;
 }
 
 img{
   width: 50%;
-  margin-top: 50px;
+}
+
+.links p{
+  height: 150px;
 }
 
