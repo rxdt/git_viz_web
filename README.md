@@ -11,6 +11,6 @@ This web app uses Python / Flask, HTML, CSS
 
 
 <h3>App architecture: </h3>
-<img src="=https://cloud.githubusercontent.com/assets/6334979/6699075/c8108c9a-ccbb-11e4-8909-f6530c8ea3bb.png">
+<img src="https://cloud.githubusercontent.com/assets/6334979/6699075/c8108c9a-ccbb-11e4-8909-f6530c8ea3bb.png">
 
 Learn about the developer at: www.linkedin.com/in/roxdt/en
